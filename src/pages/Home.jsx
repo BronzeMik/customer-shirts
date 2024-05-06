@@ -32,8 +32,8 @@ const Home = () => {
                     <motion.div {...headContentAnimation}
                     className='flex flex-col gap-5'
                     >
-                        <p className='max-w-md font-normal text-gray-600 text-base'>
-                            Create your unique and exclusive sirt with our brand-new 3D customization tool. <strong>Unleash your imagination</strong>
+                        <p className='max-w-md font-normal text-white text-base'>
+                            Create your unique and exclusive sirt with our brand-new 3D customization tool. <strong className='text-yellow-600'>Unleash your imagination</strong>
                         </p>
                         <CustomButton
                         type='filled'
